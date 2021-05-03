@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 import {
@@ -11,15 +10,12 @@ import {
   View,
 } from 'react-native';
 
-
-
-
 function App() {
   
   return (
         <View style={styles.container}>
           <Text style={styles.title}>
-            Olá Mundo
+            Catalogo
           </Text>
         </View>
   );
