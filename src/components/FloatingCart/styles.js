@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 
-export const Container = styler.View`
+export const Container = styled.View`
     bottom: 0;
     position: absolute;
     background: #e83f5b;
@@ -21,7 +21,8 @@ export const CartTotalPrice = styled.Text`
     font-weight: bold;
 `;
 
-export const CartButton = styled.ToutchableOpacity`
+
+export const CartButton = styled.TouchableOpacity`
     flex: 1;
     flex-direction: row;
     align-items: center;
