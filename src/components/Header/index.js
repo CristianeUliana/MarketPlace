@@ -1,15 +1,15 @@
 import React from 'react';
 import {Image} from 'react-native';
-import {Container} from './styles';
-import Logo from '../../assets/logo2.png'
+import {Container, style} from './styles';
+import Logo from '../../assets/logo.png'
+
+
 
 const Header = () => {
     return (
         <Container>
-            <Image source={Logo} />
+                <Image style={style.image} source={Logo} />
         </Container>
-
-
     )
 }
 
