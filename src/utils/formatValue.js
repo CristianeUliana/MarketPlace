@@ -4,4 +4,4 @@ const formatValue = (value) =>
         currency: 'BRL',
     }).format(value);
 
-    export default formatValue;
+export default formatValue;
