@@ -1,4 +1,4 @@
 # MarketPlace
 Estudo em React Native - DIO
 
-Projeto desenvolvido utilizando como base simulador do iPhone 11
+Projeto desenvolvido utilizando simulador do iPhone 11
