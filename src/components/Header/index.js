@@ -4,7 +4,6 @@ import {Container, style} from './styles';
 import Logo from '../../assets/logo.png'
 
 
-
 const Header = () => {
     return (
         <Container>
