@@ -23,7 +23,7 @@ export default function App() {
   const [products, setProducts] = useState([
     {
       id: '1',
-      title: 'Assinatura Trimestral',
+      title: 'Assinatura Mensal',
       image_url: 'https://res.cloudinary.com/robertosousa1/image/upload/v1594492578/dio/quarterly_subscription_yjolpc.png',
       price: 150,
     },
@@ -31,13 +31,13 @@ export default function App() {
       id: '2',
       title: 'Assinatura Trimestral',
       image_url: 'https://res.cloudinary.com/robertosousa1/image/upload/v1594492578/dio/quarterly_subscription_yjolpc.png',
-      price: 150,
+      price: 250,
     },
     {
       id: '3',
-      title: 'Assinatura Trimestral',
+      title: 'Assinatura Anual',
       image_url: 'https://res.cloudinary.com/robertosousa1/image/upload/v1594492578/dio/quarterly_subscription_yjolpc.png',
-      price: 150,
+      price: 1000,
     },
   ]);
   return (
