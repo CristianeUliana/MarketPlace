@@ -2,6 +2,8 @@ import React, { useState, useMemo } from 'react';
 import { View } from 'react-native';
 import FeatherIcon from 'react-native-vector-icons/Feather'
 
+import EmptyCart from '../../components/EmptyCart'
+
 import {
     Container,
     ProductContainer,
@@ -25,22 +27,7 @@ import {
 import formatValue from '../../utils/formatValue'
 
 export default function Cart() {
-    const [products, setProducts] = useState([
-        {
-            id: '1',
-            title: 'Assinatura Mensal',
-            image_url: 'https://res.cloudinary.com/robertosousa1/image/upload/v1594492578/dio/quarterly_subscription_yjolpc.png',
-            quantity: 1,
-            price: 150,
-        },
-        {
-            id: '2',
-            title: 'Assinatura Mensal',
-            image_url: 'https://res.cloudinary.com/robertosousa1/image/upload/v1594492578/dio/quarterly_subscription_yjolpc.png',
-            quantity: 2,
-            price: 150,
-        },
-    ]);
+    const [products, setProducts] = useState([]);
 
     const cartSize = useMemo(() => {
         return products.length || 0;
@@ -61,6 +48,7 @@ export default function Cart() {
                 <ProductList 
                     data={products}
                     keyExtractor={(item) => item.id}
+                    ListEmptyComponent={<EmptyCart />}
                     listFooterComponent={<View />}
                     listFooterComponentStyle={{
                         height: 80,
