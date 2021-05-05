@@ -16,7 +16,7 @@ export const ProductContainer = styled.View`
 
 export const ProductList = styled(FlatList)`
     flex: 1;
-    padding: 30x 10px;
+    padding: 30px 10px;
 `;
 
 export const Product = styled.View`
@@ -36,7 +36,7 @@ export const ProductImage = styled.Image`
 `;
 
 
-export const ProductTitleContent = styled.Text`
+export const ProductTitleContainer = styled.View`
     font-size: 16px;
     margin-left: 5px;
     margin-top: 10px;
@@ -46,7 +46,7 @@ export const ProductTitle = styled.Text`
     font-size: 16px;
 `;
 
-export const ProductPriceContent = styled.Text`
+export const ProductPriceContainer = styled.View`
     flex-direction: column;
 `;
 
