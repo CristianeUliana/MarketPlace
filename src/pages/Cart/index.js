@@ -94,7 +94,7 @@ export default function Cart() {
                                 </ActionButton>
                                 <ActionButton 
                                     onPress={() => 
-                                        item.amount >= 1 ? decrement(item) : removeFromCart(item.id)
+                                        item.amount > 1 ? decrement(item) : removeFromCart(item.id)
                                     }
                                 >
                                     <FeatherIcon name="minus" color="#E83F58" size={16} />

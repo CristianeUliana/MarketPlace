@@ -13,7 +13,7 @@ export function addToCartSuccess(product) {
 }
 
 
-export function RemoveFromCart(id) {
+export function removeFromCart(id) {
     return {
         type: '@cart/REMOVE',
         id,
